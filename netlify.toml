@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Set environment variables for build
+[build.environment]
+  NODE_ENV = "production"
+
+# Configure secrets scanning to ignore these specific keys
+[secrets.scanning]
+  omit_keys = ["REACT_APP_EMAILJS_SERVICE_ID", "REACT_APP_EMAILJS_TEMPLATE_ID", "REACT_APP_EMAILJS_PUBLIC_KEY"]

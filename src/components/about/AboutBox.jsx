@@ -31,7 +31,7 @@ const AboutBox = () => {
         <RiGroupLine className="about__icon" />
 
         <div>
-          <h3 className="about__title">80+</h3>
+          <h3 className="about__title">140+</h3>
           <span className="about__subtitle">DSA Problems</span>
         </div>
       </div>

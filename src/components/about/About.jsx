@@ -41,7 +41,7 @@ const About = () => {
               <li>JavaScript (ES6+)</li>
               <li>React</li>
               <li>Node.js</li>
-              <li>Postgres SQL</li>
+              <li>MySQL</li>
               <li>java</li>
               <li>Data Structures</li>
             </ul>

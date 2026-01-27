@@ -3,9 +3,10 @@ import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
-import Services from "./components/services/Services";
+// import Services from "./components/services/Services";
 import Resume from "./components/resume/Resume";
 import Portfolio from "./components/portfolio/Portfolio";
+import Github from "./components/github/Github";
 import Contact from "./components/contact/Contact";
 import useLocalStorage from "use-local-storage";
 
@@ -13,7 +14,7 @@ function App() {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [theme, setTheme] = useLocalStorage(
     "theme",
-    defaultDark ? "dark" : "light"
+    defaultDark ? "dark" : "light",
   );
 
   const switchTheme = () => {
@@ -27,9 +28,10 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        <Services />
+        {/* <Services /> */}
         <Resume />
         <Portfolio />
+        <Github theme={theme} />
         {/* <Blog /> */}
         <Contact theme={theme} />
       </main>

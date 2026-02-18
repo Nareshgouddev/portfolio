@@ -2,6 +2,7 @@ import Work1 from "../../assets/chef2door.jpg";
 import Work2 from "../../assets/Admin.jpg";
 import Work3 from "../../assets/RABC.jpg";
 import Work4 from "../../assets/device.jpg";
+import Work5 from "../../assets/Docubot.png";
 
 const Menu = [
   {
@@ -35,6 +36,14 @@ const Menu = [
     category: ["Backend"],
     url: "https://device-tracker-1.onrender.com/",
     repositoryUrl: "https://github.com/Nareshgouddev/Device-Tracker/tree/main",
+  },
+  {
+    id: 5,
+    image: Work5,
+    title: "Real-Time DocuChat AI",
+    category: ["Frontend", "React"],
+    url: "https://docbot-blush.vercel.app/",
+    repositoryUrl: "https://github.com/Nareshgouddev/docbot",
   },
 ];
 
